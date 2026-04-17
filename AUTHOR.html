@@ -34,8 +34,46 @@
             background-color: #494D5F;
             margin-top: 30px;
         }
+		
+		.back-home {
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			padding: 15px 20px;
+			font-size: 16px;
+			font-weight: bold;
+			background: #8458B3;
+			color: white;
+			border: 3px solid white;
+			border-radius: 8px;
+			text-decoration: none;
+			z-index: 1000;
+		}
+
+		.back-home:hover {
+			background: white;
+			color: black;
+		}
+		
+		section {
+			position: relative; 
+		}
+
+		.author-img {
+			position: absolute;
+			top: 20px;
+			right: 20px;
+			width: 200px;
+			border: 3px solid white;
+			border-radius: 50%;
+            box-shadow: 0 5px 8px rgba(0,0,0,0.5);
+			
+		}
+		
     </style>
 </head>
+
+<a href="index.html" class="back-home">HOME</a>
 
 <body>
 
@@ -47,7 +85,7 @@
 <section>
     <h2>Author Information </h2>
     <div>
-		<img src="DSC_0012.jpg" height="150">
+		<img src="DSC_0012.jpg" class="author-img">
         <p><strong>Name:</strong> Shaira Salasain Canete</p>
         <p><strong>University:</strong> Western Mindanao State University</p>
         <p><strong>Program:</strong> Bachelor of Science in Civil Engineering</p>
